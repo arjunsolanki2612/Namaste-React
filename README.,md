@@ -1,0 +1,15 @@
+# Parcel
+  -Dev Build
+  -Local Server
+  -HMR = Hot Module Replacement // refresh page on every save
+  -File Watching Algorithm - written in C++
+  -npx parcel filename => executing the parcel 
+  -Caching - Faster builds
+  -Image Optimization
+  -Minification
+  -Bundling
+  -Compress files
+  -Consistent Hashing
+  -Code Splitting
+  -Differential Bundling - support older browsers
+  -Tree Shaking - Remove unused code
