@@ -8,85 +8,12 @@ const resList = [
       areaName: "Adugodi",
       costForTwo: "₹250 for two",
       cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
-      avgRating: 4.2,
+      avgRating: 3.5,
       parentId: "61955",
       avgRatingString: "4.2",
       totalRatingsString: "5.0K+",
-      sla: {
-        deliveryTime: 43,
-        lastMileTravel: 2.6,
-        serviceability: "SERVICEABLE",
-        slaString: "40-45 mins",
-        lastMileTravelString: "2.6 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-10-25 02:00:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
-            description: "Delivery!",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "ITEMS",
-        subHeader: "AT ₹179",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--",
-        },
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+      deliveryTime: 43,
     },
-    analytics: {
-      context: "seo-data-4b6edd4e-07ff-4092-aa77-47468ebb0598",
-    },
-    cta: {
-      link: "https://www.swiggy.com/city/bangalore/chinese-wok-chikka-lakshmaiah-layout-adugodi-rest393840",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
@@ -102,94 +29,9 @@ const resList = [
       parentId: "166",
       avgRatingString: "4.3",
       totalRatingsString: "99K+",
-      sla: {
-        deliveryTime: 18,
-        lastMileTravel: 1.6,
-        serviceability: "SERVICEABLE",
-        slaString: "15-20 mins",
-        lastMileTravelString: "1.6 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-10-25 06:55:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-            description: "Delivery!",
-          },
-          {
-            imageId: "Rxawards/_CATEGORY-Burger.png",
-            description: "Delivery!",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-                },
-              },
-              {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Burger.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "60% OFF",
-        subHeader: "UPTO ₹120",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "4.2",
-          ratingCount: "4.0K+",
-        },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+
+      deliveryTime: 18,
     },
-    analytics: {
-      context: "seo-data-4b6edd4e-07ff-4092-aa77-47468ebb0598",
-    },
-    cta: {
-      link: "https://www.swiggy.com/city/bangalore/burger-king-koramangala-rest5934",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
@@ -204,100 +46,53 @@ const resList = [
       avgRating: 4.3,
       parentId: "2",
       avgRatingString: "4.3",
-      totalRatingsString: "3.0K+",
-      sla: {
-        deliveryTime: 19,
-        lastMileTravel: 1.8,
-        serviceability: "SERVICEABLE",
-        slaString: "15-20 mins",
-        lastMileTravelString: "1.8 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-10-25 03:00:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Sandwiches.png",
-            description: "Delivery!",
-          },
-        ],
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Sandwiches.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "ITEMS",
-        subHeader: "AT ₹119",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--",
-        },
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+      deliveryTime: 19,
     },
-    analytics: {
-      context: "seo-data-4b6edd4e-07ff-4092-aa77-47468ebb0598",
+  },
+  {
+    info: {
+      id: "25628",
+      name: "KFC",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/69e69c55-d2bb-4207-8310-131fc693f78a_25620.JPG",
+      locality: "Intermediate Ring Road",
+      areaName: "Ejipura",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+      avgRating: 4.3,
+      parentId: "547",
+      avgRatingString: "4.3",
+      totalRatingsString: "31K+",
+      deliveryTime: 20,
     },
-    cta: {
-      link: "https://www.swiggy.com/city/bangalore/subway-1st-block-koramangala-rest656392",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
+  },
+  {
+    info: {
+      id: "10576",
+      name: "Pizza Hut",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/87e56c63-b521-4257-96ae-a42229b92009_10576.jpg",
+      locality: "6th Block",
+      areaName: "Koramangala",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 4.2,
+      deliveryTime: 31,
     },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "426776",
+      name: "Theobroma",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/14/57402f74-4e44-451f-8a05-13fe35fb7dd3_426776.JPG",
+      locality: "7th Block",
+      areaName: "Koramangala",
+      costForTwo: "₹400 for two",
+      cuisines: ["Desserts", "Bakery", "Beverages"],
+      avgRating: 4.7,
+      deliveryTime: 24,
+    },
   },
   {
     info: {
@@ -310,68 +105,61 @@ const resList = [
       costForTwo: "₹400 for two",
       cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
       avgRating: 4.3,
-      parentId: "547",
-      avgRatingString: "4.3",
-      totalRatingsString: "31K+",
-      sla: {
-        deliveryTime: 20,
-        lastMileTravel: 0.9,
-        serviceability: "SERVICEABLE",
-        slaString: "15-20 mins",
-        lastMileTravelString: "0.9 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-10-25 00:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "ITEMS",
-        subHeader: "AT ₹179",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--",
-        },
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+
+      deliveryTime: 23,
     },
-    analytics: {
-      context: "seo-data-4b6edd4e-07ff-4092-aa77-47468ebb0598",
+  },
+  {
+    info: {
+      id: "25621",
+      name: "KFC",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/69e69c55-d2bb-4207-8310-131fc693f78a_25620.JPG",
+      locality: "Intermediate Ring Road",
+      areaName: "Ejipura",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+      avgRating: 3.9,
+
+      deliveryTime: 20,
     },
-    cta: {
-      link: "https://www.swiggy.com/city/bangalore/kfc-intermediate-ring-road-ejipura-rest25620",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
+  },
+  {
+    info: {
+      id: "63007",
+      name: "LunchBox - Meals and Thalis",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/16/5582708f-8e35-4321-9f03-54133a59be37_63007.jpg",
+      locality: "Jakkasandra",
+      areaName: "Hsr Layout 5th Sector",
+      costForTwo: "₹200 for two",
+      cuisines: [
+        "Biryani",
+        "North Indian",
+        "Punjabi",
+        "Healthy Food",
+        "Desserts",
+        "Beverages",
+      ],
+      avgRating: 3.6,
+      deliveryTime: 35,
     },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+
+  {
+    info: {
+      id: "23678",
+      name: "McDonald's",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/edc568f6-6813-4f2d-a670-911788f1f04f_23678.jpg",
+      locality: "5th Block",
+      areaName: "Koramangala",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+      avgRating: 3.9,
+
+      deliveryTime: 30,
+    },
   },
 ];
 

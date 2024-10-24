@@ -14,11 +14,62 @@
   -Differential Bundling - support older browsers
   -Tree Shaking - Remove unused code
 
-
+================================================================================
   The types of Export/Import
 
   1. Default Export/Import
    - export default Components
 
   2. Named Export/Import
-   - export const Components
+   - export const 
+   
+================================================================================
+#React Hooks
+ (Normal JS utility function)
+
+ -useState() - whenever a state variable updates, react re-renders the Components
+ -useEffect()
+
+================================================================================
+ #Reconcilation Algorithm (React Fiber Architecture)
+
+  - React is very fast because of efficent DOM manipulation, 
+  -Why efficent DOM manipulation bcz it works on virtual DOM
+  -virtual DOM is nothing but the JS object repersentation of the DOM 
+
+  -Virtual DOM: When you create a React application, React builds a virtual copy of the real DOM (Document Object Model). This is a lightweight version of the actual structure of your app, and it is stored in memory.
+
+
+In simple terms, here’s how the concept of "diffing" and the virtual DOM works in React:
+
+  1. Initial Rendering: When the app is first rendered, React takes the virtual DOM and creates the real DOM elements (like buttons, divs, etc.) that you see in the browser. This is the first step where React "flushes" the virtual DOM to the real DOM.
+
+  2. Updates with setState: When something in your app changes (for example, a user clicks a button and the state changes via setState), React creates a new virtual DOM that represents how the app should look after this change.
+
+  3. Diffing (Comparing): The new virtual DOM is compared (or diffed) with the old virtual DOM. React tries to figure out what has changed between the old version and the new version by comparing the two. This process is called diffing.
+
+  4. Efficient Updates: Instead of reloading the whole app or the entire DOM, React finds just the parts that changed in the virtual DOM and updates only those parts in the real DOM. This makes the updates fast and efficient.
+
+  Example:
+  Before the update: Your app has a button that says "Click me."
+  After the update: You clicked the button, and now it says "Clicked!"
+  React creates a new virtual DOM after the button text changes and compares (or diffs) the old version (which said "Click me") with the new version (which says "Clicked!"). It sees that only the text inside the button has changed, so it updates just that button’s text in the real DOM, rather than re-rendering the entire app.
+
+  This process of creating a virtual DOM, comparing it, and updating only the changed parts is what makes React efficient!
+  
+  ==============================================================================
+
+  #6. Exploring the world
+
+  There are two ways a website can communicate to other services 
+
+  1. Website Loads --> call the API (waits for 500ms) --> renders the UI
+  2. Website Loads --> Renders the UI --> API calls --> again Renders the UI
+
+  2nd approach is better because of better UX.
+
+  -useEffect() --> if you want to do something after rendering the Components you have to write it inside useEffect.
+
+  - The code will be rendered or the Components will be rendered first then the useEffect hook is called
+
+  ******** Whenever state variable updates, react triggers a reconciliation cyvle(rerenders the whole components)
