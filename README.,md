@@ -13,3 +13,12 @@
   -Code Splitting
   -Differential Bundling - support older browsers
   -Tree Shaking - Remove unused code
+
+
+  The types of Export/Import
+
+  1. Default Export/Import
+   - export default Components
+
+  2. Named Export/Import
+   - export const Components
